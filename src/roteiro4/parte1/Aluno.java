@@ -2,10 +2,10 @@ package roteiro4.parte1;
 
 public class Aluno {
 
-    int matricula;
-    String nome;
-    String curso;
-    int anoIngresso;
+    public  int matricula;
+    public String nome;
+    public String curso;
+    public int anoIngresso;
 
 
 }
