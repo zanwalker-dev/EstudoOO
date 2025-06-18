@@ -1,6 +1,6 @@
 package roteiro9.parte1;
 
-public class Retangulo {
+public class Retangulo implements FiguraGeometrica{
 
     private double altura;
     private double largura;
@@ -24,5 +24,20 @@ public class Retangulo {
 
     public void setLargura(double largura) {
         this.largura = largura;
+    }
+
+    @Override
+    public String getNomeFigura() {
+        return "Retângulo";
+    }
+
+    @Override
+    public double getArea() {
+        return this.altura * this.largura;
+    }
+
+    @Override
+    public double getPerimetro() {
+        return 2 * (this.altura + this.largura);
     }
 }
