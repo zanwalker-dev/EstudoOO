@@ -16,7 +16,7 @@ public class Principal {
 
             System.out.print("Matrícula: ");
             int matricula = scanner.nextInt();
-            scanner.nextLine(); // Consumir a quebra de linha
+            scanner.nextLine();
 
             System.out.print("Nome: ");
             String nome = scanner.nextLine();
@@ -26,7 +26,7 @@ public class Principal {
 
             System.out.print("Ano de Ingresso: ");
             int anoIngresso = scanner.nextInt();
-            scanner.nextLine(); // Consumir a quebra de linha
+            scanner.nextLine();
 
             listaAlunos[i] = new Aluno(matricula, nome, curso, anoIngresso);
         }
