@@ -11,6 +11,8 @@ public class Principal {
         System.out.println("Placa: " + v02.getPlaca());
         System.out.println("Ano: " + v02.getAnoFabricacao());
         System.out.println("Peso Máximo: " + v02.getPesoMax() + " kg");
+        System.out.printf("Pedagio: R$ %.2f ", v02.calcPedagio());
+
 
         // Modificando dados do veículo de carga
         v02.setPesoMax(6000);
@@ -20,6 +22,7 @@ public class Principal {
         System.out.println("Placa: " + v03.getPlaca());
         System.out.println("Ano: " + v03.getAnoFabricacao());
         System.out.println("Passageiros: " + v03.getQtdeMaxPassageiros());
+        System.out.printf("Pedagio: R$ %.2f ", v03.calcPedagio());
 
         // Modificando dados do veículo de passeio
         v03.setQtdeMaxPassageiros(7);
@@ -29,6 +32,7 @@ public class Principal {
         System.out.println("Placa: " + v04.getPlaca());
         System.out.println("Ano: " + v04.getAnoFabricacao());
         System.out.println("Modelo: " + v04.getModelo());
+        System.out.printf("Pedagio: R$ %.2f ", v04.calcPedagio());
 
         // Modificando dados do veículo pequeno
         v04.setModelo("bicicleta motorizada");
