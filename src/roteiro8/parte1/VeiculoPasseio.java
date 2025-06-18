@@ -3,8 +3,8 @@ package roteiro8.parte1;
 public class VeiculoPasseio extends Veiculo {
     private int qtdeMaxPassageiros;
 
-    public VeiculoPasseio(String modelo, int qtdeMaxPassageiros) {
-        super(modelo);
+    public VeiculoPasseio(String placa ,int anoFabricacao, int qtdeMaxPassageiros) {
+        super(placa, anoFabricacao);
         this.qtdeMaxPassageiros = qtdeMaxPassageiros;
     }
 
