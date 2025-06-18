@@ -1,17 +1,19 @@
 package roteiro8.parte1;
 
 public class Veiculo {
-    private String modelo;
+    private String placa;
+    private int anoFabricacao;
 
-    public Veiculo(String modelo) {
-        this.modelo = modelo;
+    public Veiculo(String placa, int anoFabricacao) {
+        this.placa = placa;
+        this.anoFabricacao = anoFabricacao;
     }
 
-    public String getModelo() {
-        return modelo;
+    public String getPlaca() {
+        return placa;
     }
 
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
+    public void setPlaca(String placa) {
+        this.placa = placa;
     }
 }
