@@ -16,4 +16,12 @@ public class Veiculo {
     public void setPlaca(String placa) {
         this.placa = placa;
     }
+
+    public int getAnoFabricacao() {
+        return anoFabricacao;
+    }
+
+    public void setAnoFabricacao(int anoFabricacao) {
+        this.anoFabricacao = anoFabricacao;
+    }
 }
